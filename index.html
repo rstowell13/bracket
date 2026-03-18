@@ -171,7 +171,7 @@ function countAlive(picks,results,teams){let alive=0,dead=0;for(let s=0;s<63;s++
 // DATA + FIREBASE
 // ===========================
 const SK='mm2026_v2';
-const FB_OK=!!(FIREBASE_CONFIG.apiKey&&FIREBASE_CONFIG.databaseURL);
+const FB_OK=!!(FIREBASE_CONFIG.apiKey&&FIREBASE_CONFIG.https://bracket-challenge-b549f-default-rtdb.firebaseio.com/);
 let fbRef=null,fbOn=false,saveT=null,renderQ=false;
 function ls(st){try{localStorage.setItem(SK,JSON.stringify(st))}catch(e){}}
 function ll(){try{const d=localStorage.getItem(SK);return d?JSON.parse(d):null}catch(e){return null}}
